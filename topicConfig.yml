@@ -1,0 +1,58 @@
+#-
+#    index: xrs_db
+#    topic: meitan__news
+#    processor:
+#        - doNot
+-
+    index: xrs_db
+    topic: sina__weibo__dg
+    processor:
+        - negativeScore
+        - contentRegion
+#-
+#    index: xrs_db
+#    topic: bbs__dg
+#    processor:
+#        - keyword
+#        - negativeScore
+#        - contentRegion
+#-
+#    index: xrs_db
+#    topic: huipai__exchangeRsteNow
+#    processor:
+#        - doNot
+-
+    index: xrs_db
+    topic: huipai__exchangeRsteHistory
+    processor:
+        - doNot
+#-
+#    index: xrs_db
+#    topic: huipai__news
+#    processor:
+#        - summary
+#-
+#    index: xrs_db
+#    topic: huipai__produce
+#    processor:
+#        - doNot
+#-
+#    index: xrs_db
+#    topic: huipai__weather
+#    processor:
+#        - doNot
+#-
+#    index: xrs_db
+#    topic: meitan__dianmei
+#    processor:
+#        - doNot
+#-
+#    index: xrs_db
+#    topic: meitan__donglizhishu
+#    processor:
+#        - doNot
+#-
+#    index: xrs_db
+#    topic: meitan__haiyun
+#    processor:
+#        - doNot
